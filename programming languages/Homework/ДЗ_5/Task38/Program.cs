@@ -19,7 +19,7 @@ double[] CreateArray(int size)
     return array;
 }
 
-double ra(double[] array)
+double difference (double[] array)
 {
     double max = double.MinValue;
     foreach (var i in array) 
@@ -44,4 +44,4 @@ double ra(double[] array)
 
 double[] array = CreateArray(size);
 Console.WriteLine();
-Console.WriteLine($"Разница между max и min: " + ra(array) );
+Console.WriteLine($"Разница между max и min: " + difference (array) );
